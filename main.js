@@ -91,7 +91,10 @@ var AppComponent = /** @class */ (function () {
     AppComponent.prototype.reset = function () {
         this.trace1 = {
             x: [],
-            y: []
+            y: [],
+	  line: {
+    width: 5
+  }
         };
         this.trace2 = {
             x: [],
